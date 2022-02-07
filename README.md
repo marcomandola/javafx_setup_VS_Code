@@ -63,7 +63,7 @@ marco@MacBook-Pro javafx-sdk-17.0.1 % ls -l lib/*.jar
 -rw-r--r--@ 1 marco  staff   720357 Oct 16 21:20 lib/javafx.web.jar
 ```
 
-Step 7:
+Step 7: (not actually sure this step is needed 100%)
 - Open Visual Studio Code:
   1. In the left sidebar, select "Extensions"
   2. And then search for "JavaFX Support"
