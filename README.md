@@ -91,6 +91,8 @@ Step 9: (This step is needed for the first project only)
   5. And install Java from there if you don't see it
 <img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic2b.png" width="500" height="80">
 <img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic3.png" width="500" height="160">
+
+
 ```
 marco@MacBook-Pro ~ % java --version
 openjdk 17.* 2021-10-19
