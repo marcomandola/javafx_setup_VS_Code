@@ -1,1 +1,1 @@
-# javafx_setup_VS_Code
+# JavaFX setup on Visual Studio Code
