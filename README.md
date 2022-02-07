@@ -89,7 +89,8 @@ Step 9: (This step is needed for the first project only)
   3. Click Command Palette
   4. A pop up will open at the top of the screen, search for: "Java: Configure Java Runtime"
   5. And install Java from there if you don't see it
-  6. PICTURE
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic2b.png" width="500" height="80">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic3.png" width="500" height="160">
 ```
 marco@MacBook-Pro ~ % java --version
 openjdk 17.* 2021-10-19
