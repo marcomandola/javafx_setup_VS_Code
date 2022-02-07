@@ -67,7 +67,7 @@ Step 7:
   3. Install it.
   4. VS may need to reload.
 
-<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic1.png" width="300" height="250">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/images/pic1.png" width="300" height="250">
 
 Step 8:
 - Open Visual Studio Code:
@@ -79,8 +79,8 @@ Step 8:
   6. Click on: "Select the project location"
   7. A pop up will open at the top of the screen, asking for the Project Name itself: "Input a Java Project name (Press "Enter" to confirm)"
 
-<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic2.png" width="300" height="250">
-<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic2a.png" width="500" height="80">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/images/pic2.png" width="300" height="250">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/images/pic2a.png" width="500" height="80">
 
 Step 9: (This step is needed for the first project only)
 - In Visual Studio Code:
@@ -89,8 +89,8 @@ Step 9: (This step is needed for the first project only)
   3. Click Command Palette
   4. A pop up will open at the top of the screen, search for: "Java: Configure Java Runtime"
   5. And install Java from there if you don't see it
-<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic2b.png" width="500" height="80">
-<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic3.png" width="500" height="160">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/images/pic2b.png" width="500" height="80">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/images/pic3.png" width="500" height="160">
 
 
 ```
@@ -163,8 +163,8 @@ Step 11: SETUP JAVA VM RUNTIME (this will be required for every project)
             "projectName": "Test_xxxxxxx"
         }
 ```
-<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic4.png" width="500" height="120">
-<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic5.png" width="500" height="200">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/images/pic4.png" width="500" height="120">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/images/pic5.png" width="500" height="200">
 
 
 Step 12: You can now try and run your app
