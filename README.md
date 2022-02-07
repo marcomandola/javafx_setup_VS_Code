@@ -166,10 +166,10 @@ Step 11: SETUP JAVA VM RUNTIME (this will be required for every project)
 
 <img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/images/pic4.png" width="500" height="120">
 
-From:
+From:  
 <img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/images/pic5.png" width="500" height="300">
 
-To:
+To:  
 <img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/images/pic6.png" width="500" height="300">
 
 
