@@ -67,7 +67,7 @@ Step 7:
   3. Install it.
   4. VS may need to reload.
 
-![alt text](https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic1.png  =250x250)
+![](https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic1.png =250x250)
 
 Step 8:
 - Open Visual Studio Code:
