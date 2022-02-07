@@ -42,4 +42,82 @@ drwxr-xr-x@  9 marco  staff      288 Oct 16 21:20 legal
 drwxr-xr-x@ 24 marco  staff      768 Oct 16 21:21 lib
 -rw-r--r--@  1 marco  staff  6617560 Oct 16 21:20 src.zip
 ```
+  
+Step 6:
+- These are the files we will need later on:
+```
+marco@MacBook-Pro javafx-sdk-17.0.1 % ls -l lib/*.jar
+-rw-r--r--@ 1 marco  staff    37118 Oct 16 21:20 lib/javafx-swt.jar
+-rw-r--r--@ 1 marco  staff   745855 Oct 16 21:20 lib/javafx.base.jar
+-rw-r--r--@ 1 marco  staff  2545243 Oct 16 21:20 lib/javafx.controls.jar
+-rw-r--r--@ 1 marco  staff   129482 Oct 16 21:20 lib/javafx.fxml.jar
+-rw-r--r--@ 1 marco  staff  4371700 Oct 16 21:20 lib/javafx.graphics.jar
+-rw-r--r--@ 1 marco  staff   281011 Oct 16 21:20 lib/javafx.media.jar
+-rw-r--r--@ 1 marco  staff    88801 Oct 16 21:20 lib/javafx.swing.jar
+-rw-r--r--@ 1 marco  staff   720357 Oct 16 21:20 lib/javafx.web.jar
+```
 
+Step 7:
+- Open Visual Studio Code:
+  1. In the left sidebar, select "Extensions"
+  2. And then search for "JavaFX Support"
+  3. Install it.
+  4. VS may need to reload.
+
+Step 8:
+- Open Visual Studio Code:
+  1. Lower left Corner, click on the "Settings" icon (gear icon)
+  2. Click Command Palette
+  3. A pop up will open at the top of the screen, search for: "Java: Create Java Project"
+  4. Select: No build tools
+  5. VS will ask for the directory where to put all your projects (i.e. on my Mac: /Users/marco/VS_Java )
+  6. Click on: "Select the project location"
+  7. A pop up will open at the top of the screen, asking for the Project Name itself: "Input a Java Project name (Press "Enter" to confirm)"
+
+Step 9: (This step is needed for the first project only)
+- In Visual Studio Code:
+  1. Inside the project that has been created, go to the "src" folder, and open the App.java file that was generated automatically. (just open it) 
+  2. Now, lower left corner, click on the "Settings" icon (gear icon)
+  3. Click Command Palette
+  4. A pop up will open at the top of the screen, search for: "Java: Configure Java Runtime"
+  5. And install Java from there if you don't see it
+  6. PICTURE
+```
+marco@MacBook-Pro ~ % java --version
+openjdk 17.* 2021-10-19
+OpenJDK Runtime Environment (build 17.*)
+OpenJDK 64-Bit Server VM (build 17.*, mixed mode, sharing)
+```
+
+Step 10: IMPORT JAVA FX Library (this will be required for every project)
+- In the left sidebar of the project, you will see a ".vscode" directory.
+  1. There will be a settings.json file, we will need to add some entries there. 
+  Change the file from:
+```
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
+```
+
+  To:
+```
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/marco/java/javafx-sdk-17.0.1/lib/javafx-swt.jar",
+        "/Users/marco/java/javafx-sdk-17.0.1/lib/javafx.base.jar",
+        "/Users/marco/java/javafx-sdk-17.0.1/lib/javafx.controls.jar",
+        "/Users/marco/java/javafx-sdk-17.0.1/lib/javafx.fxml.jar",
+        "/Users/marco/java/javafx-sdk-17.0.1/lib/javafx.graphics.jar",
+        "/Users/marco/java/javafx-sdk-17.0.1/lib/javafx.media.jar",
+        "/Users/marco/java/javafx-sdk-17.0.1/lib/javafx.swing.jar",
+        "/Users/marco/java/javafx-sdk-17.0.1/lib/javafx.web.jar"
+    ]
+}
+```  
