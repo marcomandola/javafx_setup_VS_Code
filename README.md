@@ -127,17 +127,17 @@ Step 11: SETUP JAVA VM RUNTIME (this will be required for every project)
   1. At the top left corner of the screen click on "Run"
   2. Then click on "Add confifguration"
   3. This will bring up a "launch.json" file
-  4. We will need to add the following string:
+  4. We will need to add the following string
 ```  
 "vmArgs": "--module-path /path/to/your/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml",
 
 in my case:
 "vmArgs": "--module-path /Users/marco/java/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml",
 ```  
-  
-    5. You will need to edit, inside the "Configurations" section, the area where you see "mainClass": "App" 
-    6. ("App" could be different if you changed Main class name)
-    7. We will need to edit here from: 
+  5. You will need to edit, inside the "Configurations" section, the area where you see "mainClass": "App" 
+  6. ("App" could be different if you changed Main class name)
+  7. We will need to edit here from: 
+
 ```
         {
             "type": "java",
