@@ -73,11 +73,13 @@ Step 8:
 - Open Visual Studio Code:
   1. Lower left Corner, click on the "Settings" icon (gear icon)
   2. Click Command Palette
-  3. A pop up will open at the top of the screen, search for: "Java: Create Java Project"
-  4. Select: No build tools
-  5. VS will ask for the directory where to put all your projects (i.e. on my Mac: /Users/marco/VS_Java )
-  6. Click on: "Select the project location"
-  7. A pop up will open at the top of the screen, asking for the Project Name itself: "Input a Java Project name (Press "Enter" to confirm)"
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic2.png" width="250" height="250">
+
+  4. A pop up will open at the top of the screen, search for: "Java: Create Java Project"
+  5. Select: No build tools
+  6. VS will ask for the directory where to put all your projects (i.e. on my Mac: /Users/marco/VS_Java )
+  7. Click on: "Select the project location"
+  8. A pop up will open at the top of the screen, asking for the Project Name itself: "Input a Java Project name (Press "Enter" to confirm)"
 
 Step 9: (This step is needed for the first project only)
 - In Visual Studio Code:
