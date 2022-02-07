@@ -148,7 +148,7 @@ Step 11: SETUP JAVA VM RUNTIME (this will be required for every project)
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "Test_b89987b8"
+            "projectName": "Test_xxxxxxx"
         }
 ```
 
@@ -160,7 +160,7 @@ Step 11: SETUP JAVA VM RUNTIME (this will be required for every project)
             "request": "launch",
             "vmArgs": "--module-path /Users/marco/java/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml",
             "mainClass": "App",
-            "projectName": "Test_b89987b8"
+            "projectName": "Test_xxxxxxx"
         }
 ```
 <img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic4.png" width="500" height="120">
