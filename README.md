@@ -80,6 +80,7 @@ Step 8:
   7. A pop up will open at the top of the screen, asking for the Project Name itself: "Input a Java Project name (Press "Enter" to confirm)"
 
 <img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic2.png" width="300" height="250">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic2a.png" width="300" height="250">
 
 Step 9: (This step is needed for the first project only)
 - In Visual Studio Code:
