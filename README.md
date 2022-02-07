@@ -30,6 +30,9 @@ marco@MacBook-Pro ~ % pwd
 marco@MacBook-Pro ~ % mkdir java  # This is a comment: You can name this as you prefer
 
 marco@MacBook-Pro ~ % cd java
+
+marco@MacBook-Pro ~ % pwd
+/Users/marco/java
 ```
 
 Step 5:
