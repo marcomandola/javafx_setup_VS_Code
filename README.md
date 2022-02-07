@@ -163,8 +163,8 @@ Step 11: SETUP JAVA VM RUNTIME (this will be required for every project)
             "projectName": "Test_b89987b8"
         }
 ```
-<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic4.png" width="500" height="80">
-<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic5.png" width="500" height="160">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic4.png" width="500" height="120">
+<img src="https://github.com/marcomandola/javafx_setup_VS_Code/blob/main/pic5.png" width="500" height="200">
 
 
 Step 12: You can now try and run your app
