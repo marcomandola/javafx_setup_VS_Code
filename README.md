@@ -5,6 +5,9 @@ In my case, I have used the following:
 - Visual Studio Code for macOS, version: Version: 1.64.0 (Universal)  
 - Java FX version: 17.0.1  
 
+Steps Required at every new project created:
+Step 8, Step 10, Step 11
+
 Step 1:  
 Download Java FX SDK for Linux, macOS or Windows from: https://gluonhq.com/products/javafx/  
   
